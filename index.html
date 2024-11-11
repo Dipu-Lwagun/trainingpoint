@@ -4,29 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>trainingpoint.io</title>
 </head>
 <body>
     <header>
-        <nav class=" flex items-center justify-between px-4 py-4 border-b-2 border-red-500">
+        <nav class=" flex items-center justify-between px-4 py-5 ">
             <div>
                 <img src="./image/logo.svg" alt="logo" class="h-[50px] w-[100px]">
             </div>
             <div >
-                <ul class="flex">
-                    <li>courses</li>
-                    <li>about us</li>
-                    <li>blogs</li>
-                    <li>news & events</li>
-                    <li>contact us</li>
+                <ul class="flex gap-[55px] capitalize text-[14px] text-[#020817]">
+                    <a class=" hover:text-[#ff7200]" href="#"><li>courses</li> </a>
+                    <a class=" hover:text-[#ff7200]" href="#"><li>about us</li></a>
+                    <a class=" hover:text-[#ff7200]" href="#"><li>blogs</li></a>
+                    <a class=" hover:text-[#ff7200]" href="#"><li>news & events</li></a>
+                    <a class=" hover:text-[#ff7200]" href="#"><li>contact us</li></a>
                 </ul>
             </div>
-            <div>
-                <button>Book a Consultation</button>
+            <div class="hover:text-white hover:bg-[#ff7200] ">
+                <button class="border-[#ff7200] text-[#ff7200] text-[14px] font-extrabold border-[1px] px-[23px] py-[10px] rounded-full ">Book a Consultation</button>
             </div>
         </nav>
     </header>
-    
+    <!-- hero section -->
+    <section>
+        <div class="relative">
+            <img src="./image/hero-image.svg" alt="">
+            <div class="absolute top-[125px] left-4">
+                <h1 class="text-[64px] text-white font-[600] leading-[75px]">We Provide <br>Job-oriented IT <br>Courses in Nepal</h1>
+                <P class="text-[18px] text-white  font-[400] leading-[1.5rem] w-[650px] mt-4">Our students consider us the most trusted and affordable option for pursuing IT education in Nepal.</P>
+                <div class="flex gap-4  mt-6">
+                    <div>
+                        <button class=" text-white text-[14px] text-sm font-medium px-[50px] py-[15px] bg-[#ff7200] hover:bg-yellow-400 rounded-full ">Book a Consultation</button>
+                    </div>
+                    <div class=" ">
+                        <button class="border-white text-white text-[14px] text-sm font-medium border-[1px] px-[50px] py-[15px] hover:bg-[#ff7200] rounded-full ">View course</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section  -->
+    <section>
+        <div class="h-[360px] bg-yellow-400 bg-opacity-65 flex justify-evenly py-[70px] px-[30px]">
+            <div class="w-[50%]">
+                <h1 class="text-4xl font-semibold w-[400px] pl-[30px] ">
+                    We're a leading IT Training Institute in Nepal.
+                </h1>
+            </div>
+            <div class="w-[50%]">
+                <p class="text-[#4e4c4e] leading-[25px] w-[550px] pb-8 ">A group of experienced IT professionals in Nepal founded Trainingpoint to fill the gap between traditional education and real-world IT requirements. With a decade of experience, these founders set out to revolutionize IT education in Nepal, creating top-tier IT training programs that train students to be job-ready within a few months. Our top-tier IT courses elevate Nepal's IT industry. Be a part of it!</p>
+                <a href="" class=" border-b-[2px] border-black py-2">More About Us</a>
+            </div>
+        </div>
+    </section>
+    <!-- feature section  -->
+     <section>
+        <div class="mt-[30px] mx-4">
+            <div>
+                <h2 class="text-4xl font-semibold">Featured IT Courses</h2>
+            </div>
+            <!-- card -->
+            <div class="grid grid-cols-3 gap-8">
+                <!-- card 1 -->
+                <div class="h-screen w-auto bg-slate-100 rounded-lg">
+                    <img src="./image/WEB DEVELOPMENT.webp" class=""  alt="">
+                    <h2 class="text-xl font-semibold pt-6 pl-4">Web Development</h2>
+                    <p class="px-4">Our Web Development training has helped over 200 students become professionals. I Career: Front end Web Developer, React Developer, Web Designer</p>
+                    
+                    <div class="mt-[80px] flex justify-evenly items-center gap-4 pl-4">
+                        <div class="  flex gap-4 ">
+                            <div class=" h-[25px] w-[25px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>             
+                            </div>
+                            <p class="text-[18px] font-[400]">2 month</p>
+                        </div>
+                        <div>
+                            <button class=" text-white text-[14px] text-sm font-medium px-[50px] py-[10px] bg-[#ff7200] hover:bg-yellow-400 rounded-full ">View course</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="h-screen w-auto bg-slate-100 rounded-xl">
+                    <img src="./image/pm.webp" class=""  alt="">
+                    <h2 class="text-xl font-semibold pt-6 pl-4">Project Management</h2>
+                    <p class="px-4">Our professional project management training has helped over 27 students become professionals  Career: Project Coordinator, Program Manager, IT Project Manager</p>
+                    
+                    <div class="mt-[80px] flex justify-evenly items-center gap-4 pl-4">
+                        <div class="  flex gap-4 ">
+                            <div class=" h-[25px] w-[25px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>             
+                            </div>
+                            <p class="text-[18px] font-[400]">3 month</p>
+                        </div>
+                        <div>
+                            <button class=" text-white text-[14px] text-sm font-medium px-[50px] py-[10px] bg-[#ff7200] hover:bg-yellow-400 rounded-full ">View course</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="h-screen w-auto bg-slate-100 rounded-lg">
+                    <img src="./image/qa.webp" class=""  alt="">
+                    <h2 class="text-xl font-semibold pt-6 pl-4">Quality Assurance</h2>
+                    <p class="px-4">Join our internship-focused QA training in Nepal and learn software quality assurance skills. Get proficiency in manual and automation testing. | Career: QA Intern/Trainee, QA Tester, QA Automation Engineer, Test Analyst</p>
+                    
+                    <div class="mt-[60px] flex justify-evenly items-center gap-4 pl-4">
+                        <div class="  flex gap-4 ">
+                            <div class=" h-[25px] w-[25px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>             
+                            </div>
+                            <p class="text-[18px] font-[400]">2 month</p>
+                        </div>
+                        <div>
+                            <button class=" text-white text-[14px] text-sm font-medium px-[50px] py-[10px] bg-[#ff7200] hover:bg-yellow-400 rounded-full ">View course</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-[80px] text-[18px] text-[#ff7200] ">
+                <a href="#"><u>See all course</u></a>
+            </div>
+        </div>
+     </section>
 </body>
 </html>
